@@ -35,8 +35,8 @@ gem 'jbuilder', '~> 2.5'
 
 gem "paperclip", ">= 5.2.3"
 gem 'rack-cors', :require => 'rack/cors'
-# gem "actionview", ">= 5.2.2.1"
-# gem "railties", ">= 5.2.2.1"
+gem "actionview", ">= 5.2.2.1"
+gem "railties", ">= 5.2.2.1"
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
