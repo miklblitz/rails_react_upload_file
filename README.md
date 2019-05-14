@@ -1,24 +1,12 @@
-# README
+An example REST API Rails and ReactJS for uploading file
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+h2. clone project
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* unstall rails 5.2.1 - for Ubuntu/Mint https://gorails.com/setup/ubuntu/16.04
+* cd to_cloned_project_folder
+* bundle exec rails db:reset
+* bundle exec rails db:seed
+* cd client/
+* npm install
+* cd ..
+* foreman start
