@@ -9,4 +9,5 @@ h2. clone project
 * cd client/
 * npm install
 * cd ..
+* (optional) setup Google Chrome for demonstrate progress upload file public/setup_google_chrome.jpg
 * foreman start
